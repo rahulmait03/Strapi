@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/trailers",
+      "handler": "Trailers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/trailers/count",
+      "handler": "Trailers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/trailers/:_id",
+      "handler": "Trailers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/trailers",
+      "handler": "Trailers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/trailers/:_id",
+      "handler": "Trailers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/trailers/:_id",
+      "handler": "Trailers.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

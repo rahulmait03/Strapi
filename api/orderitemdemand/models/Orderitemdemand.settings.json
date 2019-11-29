@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "orderitemdemand",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "item": {
+  "type": "integer"
+},
+"start date": {
+  "type": "integer"
+},
+"end date": {
+  "type": "integer"
+},
+"agency": {
+  "type": "string"
+},
+"num of trucks": {
+  "type": "integer"
+},
+"status": {
+  "type": "string"
+},
+"status date": {
+  "type": "integer"
+}
+  }
+}

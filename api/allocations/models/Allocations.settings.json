@@ -1,0 +1,79 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "allocations",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "web id": {
+  "type": "integer"
+},
+"order id": {
+  "type": "string"
+},
+"customer order number": {
+  "type": "string"
+},
+"plant": {
+  "type": "integer"
+},
+"item": {
+  "type": "integer"
+},
+"order item demand": {
+  "type": "string"
+},
+"date": {
+  "type": "integer"
+},
+"driveridentificationnumber": {
+  "type": "string"
+},
+"truckplate": {
+  "type": "string"
+},
+"agency": {
+  "type": "string"
+},
+"status": {
+  "type": "string"
+},
+"transportcardname": {
+  "type": "string"
+},
+"cardvaliditydate": {
+  "type": "integer"
+},
+"postalcode": {
+  "type": "string"
+},
+"street": {
+  "type": "string"
+},
+"city": {
+  "type": "string"
+},
+"country": {
+  "type": "string"
+},
+"taxidentificationnumber": {
+  "type": "string"
+},
+"pma": {
+  "type": "integer"
+},
+"trailerplate": {
+  "type": "string"
+},
+"typeoftrailer": {
+  "type": "string"
+},
+"drivinglicenseexpirationdate": {
+  "type": "integer"
+}
+  }
+}

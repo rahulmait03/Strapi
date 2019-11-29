@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "tests",
+  "info": {
+    "name": "test",
+    "description": "test"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "rahul": {
+      "type": "string"
+    }
+  }
+}

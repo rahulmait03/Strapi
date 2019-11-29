@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/allocations",
+      "handler": "Allocations.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/allocations/count",
+      "handler": "Allocations.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/allocations/:_id",
+      "handler": "Allocations.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/allocations",
+      "handler": "Allocations.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/allocations/:_id",
+      "handler": "Allocations.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/allocations/:_id",
+      "handler": "Allocations.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

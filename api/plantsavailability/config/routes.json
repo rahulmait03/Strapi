@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/plantsavailabilities",
+      "handler": "Plantsavailability.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/plantsavailabilities/count",
+      "handler": "Plantsavailability.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/plantsavailabilities/:_id",
+      "handler": "Plantsavailability.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/plantsavailabilities",
+      "handler": "Plantsavailability.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/plantsavailabilities/:_id",
+      "handler": "Plantsavailability.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/plantsavailabilities/:_id",
+      "handler": "Plantsavailability.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

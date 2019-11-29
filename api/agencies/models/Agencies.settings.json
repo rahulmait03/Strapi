@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "agencies",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "agency id": {
+  "type": "string"
+},
+"name 1": {
+  "type": "string"
+},
+"status": {
+  "type": "string"
+},
+"status date": {
+  "type": "integer"
+}
+  }
+}

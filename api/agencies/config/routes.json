@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/agencies",
+      "handler": "Agencies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agencies/count",
+      "handler": "Agencies.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agencies/:_id",
+      "handler": "Agencies.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/agencies",
+      "handler": "Agencies.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/agencies/:_id",
+      "handler": "Agencies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/agencies/:_id",
+      "handler": "Agencies.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

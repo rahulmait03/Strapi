@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/plantsexceptions",
+      "handler": "Plantsexception.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/plantsexceptions/count",
+      "handler": "Plantsexception.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/plantsexceptions/:_id",
+      "handler": "Plantsexception.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/plantsexceptions",
+      "handler": "Plantsexception.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/plantsexceptions/:_id",
+      "handler": "Plantsexception.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/plantsexceptions/:_id",
+      "handler": "Plantsexception.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

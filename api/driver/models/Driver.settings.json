@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "driver",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+  "type": "string"
+},
+"driver identification number": {
+  "type": "string"
+},
+"driving license expiration date": {
+  "type": "integer"
+},
+"agency": {
+  "type": "string"
+},
+"status": {
+  "type": "string"
+},
+"status date": {
+  "type": "integer"
+}
+  }
+}
